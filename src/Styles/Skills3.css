@@ -1,0 +1,176 @@
+
+    /* Container */
+
+.skills__container{ 
+        background: var(--fondo-negro);
+        display: flex;
+        flex-direction: column;
+        background-image: var(--fondo-negro);
+        align-items: center;
+        margin: 10%;
+        padding: 10%;
+        }
+    
+        /* Imagenes */
+    
+    
+.img__cualidades{
+        height: 150px ; width: 150px;
+    
+    }
+        /* Textos */
+    
+    .p__perfil{
+        color: var(--color--foto);
+        margin: 10px;
+        font-size: 25px;
+    }
+    
+    .perfil__description{
+        color: var(--font-color);
+        font-family: var(--fuente-secundaria);
+        margin: 30px;
+    }
+    
+    .titulo__productivo, .titulo__equipo, .titulo__problemas, .titulo__aprender{
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 5px;
+    }
+    
+    .skills__item{
+        margin: 20px;
+    }
+    
+    .img__productivo, .img__equipo, .img__problemas, .img__aprender{
+        height: 120px; width: 120px;
+        padding-top: 5px;
+    }
+    
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    
+    /* Container */
+
+.skills__container{ 
+    background: var(--fondo-negro);
+    display: flex;
+    flex-direction: column;
+    background-image: var(--fondo-negro);
+    align-items: center;
+    margin: 10%;
+    padding: 10%;
+    }
+
+    /* Imagenes */
+
+
+.img__cualidades{
+    height: 150px ; width: 150px;
+
+}
+    /* Textos */
+
+.p__perfil{
+    color: var(--font-color);
+    margin: 10px;
+    font-size: 25px;
+}
+
+.perfil__description{
+    color: var(--font-color);
+    font-family: var(--fuente-secundaria);
+    margin: 30px;
+}
+
+.titulo__productivo, .titulo__equipo, .titulo__problemas, .titulo__aprender{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.skills__item{
+    margin: 20px;
+}
+
+.img__productivo, .img__equipo, .img__problemas, .img__aprender{
+    height: 120px; width: 120px;
+    padding-top: 5px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+            /* Escritorio */
+
+@media only screen and (min-width: 1024px) { 
+    
+    
+    .skills__container{ 
+        margin: 1%;
+        padding: 5%;
+        width: 400px;
+        height: 1200px;
+        padding-bottom: 100px;
+    }
+            
+    .img__cualidades{
+        padding-bottom: 5px;
+        
+    }
+    
+    .p__perfil{
+        color: var(--color--foto);
+        margin: 10px;
+        font-size: 25px;
+    }
+    
+    .perfil__description{
+        color: var(--font-color);
+        font-family: var(--fuente-secundaria);
+        margin: 30px;
+    }
+    
+    .titulo__productivo, .titulo__equipo, .titulo__problemas, .titulo__aprender{
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+    
+    
+    .skills__item{
+        margin: 20px;
+    }
+
+   .item__productivo{
+        margin-top: 40px;
+   }
+
+
+    .img__productivo,.img__equipo, .img__problemas, .img__aprender {
+        height: 120px; width: 120px;
+        padding-top: 5px;
+    }
+    
+    }

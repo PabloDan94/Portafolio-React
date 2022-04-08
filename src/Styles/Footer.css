@@ -1,0 +1,133 @@
+
+.footer__container{
+    background: var(--fondo-negro);
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.p__footer{
+    color: var(--font-color);
+    font-size: 30px;
+}
+
+.footer__links{
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer__item2, .footer__item3{
+    height: 50px; width: 50px;
+    margin: 20px;
+    transition: 0.4s;
+}
+
+.footer__item1{
+    height: 60px; width: 60px;
+    transition: 0.4s;
+}
+
+.footer__item2:hover, .footer__item3:hover{
+    height: 60px; width: 60px;
+}
+
+.footer__item1:hover{
+    height: 70px; width: 70px;
+}
+
+
+        /* Tablet */
+
+@media only screen and (min-width: 768px) {
+    
+.footer__container{
+    background: var(--fondo-negro);
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: -11px;
+}
+
+.p__footer{
+    color: var(--font-color);
+    font-size: 30px;
+}
+
+.footer__links{
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer__item2, .footer__item3{
+    height: 50px; width: 50px;
+    margin: 20px;
+    transition: 0.4s;
+}
+
+.footer__item1{
+    height: 60px; width: 60px;
+    transition: 0.4s;
+}
+
+.footer__item2:hover, .footer__item3:hover{
+    height: 60px; width: 60px;
+}
+
+.footer__item1:hover{
+    height: 70px; width: 70px;
+}
+}   
+
+
+        /* Escritorio */
+
+@media only screen and (min-width: 768px) {
+     .footer__container{
+        background: var(--fondo-negro);
+        height: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        position: relative;
+
+    }
+    
+    .p__footer{
+        color: var(--font-color);
+        font-size: 30px;
+    }
+    
+    .footer__links{
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .footer__item2, .footer__item3{
+        height: 50px; width: 50px;
+        margin: 20px;
+        transition: 0.4s;
+    }
+    
+    .footer__item1{
+        height: 60px; width: 60px;
+        transition: 0.4s;
+    }
+    
+    .footer__item2:hover, .footer__item3:hover{
+        height: 60px; width: 60px;
+    }
+    
+    .footer__item1:hover{
+        height: 70px; width: 70px;
+    }
+    
+    
+}

@@ -1,0 +1,151 @@
+
+
+.conteiner__nav{
+    background-color: var(--color--foto);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav__link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    color: #1B5C7F;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav__menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav__menu__item{
+    font-size: 18px;
+    margin: 0 10px;
+    list-style: none;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav__link{
+    padding: 5px 20px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.nav__link:hover,
+.nav__link__active{
+    background-color: #1B5C7F;
+}
+
+.nav__toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+   
+
+
+
+    .conteiner__nav{
+        background-color: var(--color--foto);
+        height: 60px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    
+    
+    .logo{
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+    
+    .nav__menu{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: var(--fondo-negro);
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y:auto ;
+
+        left:100%;
+        transition: left 0.3s;
+    }
+    
+    .nav__menu__item{
+        line-height: 70px; 
+    }
+    
+    .nav__link{
+        padding: 5px 20px;
+        border-radius: 3px;
+        transition: 0.5s;
+    }
+    
+    .nav__link:hover, .nav__link__active{
+        background: none;
+        color: var(--color--foto);
+    }
+    
+    .nav__toggle{
+        color: white;
+        background: none;
+        border: none;
+        font-size: 30px;
+        padding: 0 20px;
+        line-height: 60px;
+        display: block;
+    }
+
+    .toggle__img{
+        width: 20px;
+    }
+
+    .nav__menu__visible{
+        left: 0;
+    }
+
+    .nav__toggle:focus:not(:focus-visible){
+        outline: none;
+    }
+
+}
