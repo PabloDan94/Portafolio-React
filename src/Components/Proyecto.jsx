@@ -1,13 +1,8 @@
 import React from 'react'
-import Portafolio from '../Img/portafolio.png'
 import '../Styles/Proyecto.css'
 
 export default function Proyecto(props) {
 
-    let imagen = ""
-    let  titulo = ""
-    let descripcion = ""
-    let link = ""
     return (
         <div className="card__proyecto">
             <a href={props.link}>
