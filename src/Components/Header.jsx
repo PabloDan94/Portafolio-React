@@ -2,7 +2,7 @@ import React from 'react'
 import Foto from '../Img/fotoentera.png'
 import Informatico from '../Img/informatico.png'
 import '../Styles/Header.css'
-import Pdf from '../Img/PabloDan-Cv.pdf'
+import Pdf from '../Img/PabloDanCV.pdf'
 
 export default function Header() {
     return (
