@@ -14,7 +14,7 @@ export default function MisProyectos() {
             <h1 className="titulo__proyectos">Mis proyectos</h1>
             <Proyecto imagen={Portafolio} titulo="Portafolio" descripcion="Este es mi portafolio personal realizado con React.js"/>
             <Proyecto imagen={Reactflix} titulo="Reactflix" descripcion="Una pagina de peliculas realizada con React.js" link="https://reactmovies-pablodan.netlify.app"/>
-            <img class="fondo__proyect" src={FondoProyect} alt="proyecto-img"></img>
+            <img className="fondo__proyect" src={FondoProyect} alt="proyecto-img"></img>
         </div>
     )
 }

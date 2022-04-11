@@ -24,9 +24,9 @@ export default function Header() {
                         <img className="informatico" src={Informatico} alt="informatico" />
 
                     <div className="text__container">
-                        <p class="p__sobremi">Soy un amante de la informática, siempre en busca de mejorar mis capacidades. Me gusta el trabajo en equipo y siempre estoy dispuesto para enfrentar desafíos y aprender constantemente.</p>
-                        <p class="p__cv">Descarga aqui mi 
-                        <a class="curriculum" href={Pdf} download="Curriculum Pablo Iriarte"> curriculum</a>
+                        <p className="p__sobremi">Soy un amante de la informática, siempre en busca de mejorar mis capacidades. Me gusta el trabajo en equipo y siempre estoy dispuesto para enfrentar desafíos y aprender constantemente.</p>
+                        <p className="p__cv">Descarga aqui mi 
+                        <a className="curriculum" href={Pdf} download="Curriculum Pablo Iriarte"> curriculum</a>
                         </p>
                     </div>
                 </div>

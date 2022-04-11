@@ -1,4 +1,3 @@
-import Avatar from '../Img/avatar.png'
 import '../Styles/Skills3.css'
 import Perfil from '../Img/avatar.png'
 import Productivo from '../Img/reloj.png'
