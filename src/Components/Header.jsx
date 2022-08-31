@@ -29,6 +29,9 @@ export default function Header() {
                         <a className="curriculum" href={Pdf} download="Curriculum Pablo Iriarte"> curriculum</a>
                         </p>
                     </div>
+                    <button className='to__top'>
+                        To top
+                    </button>
                 </div>
             </div>
                 

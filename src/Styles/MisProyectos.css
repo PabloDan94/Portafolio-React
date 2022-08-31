@@ -1,8 +1,8 @@
 .titulo__proyectos{
     color: white;
     bottom: 400px;
-    font-size: 70px;
-    margin-bottom: 40px;margin-top: 20px;
+    font-size: 2rem;
+    margin-bottom: 40px;margin-top: 4   0px;
 }
 
 .proyectos__container{
@@ -21,7 +21,9 @@
     width: 300px;
 }
 
-
+.proyectos__container  img {
+    object-fit: cover;
+}
 
 
 

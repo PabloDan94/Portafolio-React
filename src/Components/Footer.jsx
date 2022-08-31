@@ -15,7 +15,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="mailto: pablo.iriarte.94@hotmail.com"
+          href="mailto: pablodan.dev@gmail.com"
           className="btn__email"
           rel="noreferrer"
         >
