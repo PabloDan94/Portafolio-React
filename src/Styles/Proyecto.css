@@ -55,7 +55,7 @@
 }
 
 .card__img{
-    width: 450px; height: 300px;
+    width: 450px; height: 100%;
     border: 15px solid var(--color--foto);
 }
 
