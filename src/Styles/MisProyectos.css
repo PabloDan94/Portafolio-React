@@ -26,18 +26,25 @@
 }
 
 
+/* TABLET */
 
-@media only screen and (min-width:600px){
+@media only screen and (min-width: 600px) {
+
+
     .fondo__proyect {
-        width: 500px;
+        width: 300px;
         margin-left: 65%;
-        margin-top: 100px;
-    
+        margin-top:5%;
+        
     }
+    
+    .fondo__proyect2{
+        width: 300px;
+        margin-top: 5%;
+        margin-right: 65%;
+    }
+
 }
-
-
-
 
 
 
@@ -48,7 +55,7 @@
 
             /* Escritorio */
 
-            @media only screen and (min-width: 1024px) {
+            @media only screen and (min-width: 1080px) {
 .titulo__proyectos{
     color: white;
     bottom: 400px;

@@ -100,7 +100,7 @@ b {
     width: 300px;
     transform: rotate(-25deg);
     top: 60px;
-    left: 25%;
+    left: 30%;
     margin-bottom: 10rem;
 }
 
@@ -145,7 +145,7 @@ b {
 
         /*Escritorio */
 
-@media only screen and (min-width: 1024px) {    
+@media only screen and (min-width: 1080px) {    
 
 .header__container{
         display:flex;
